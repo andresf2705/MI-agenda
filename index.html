@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Agenda Dijital</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Agenda para seguimiento de estudios.  P-R  ADSO</h1> 
+      <nav>
+        <ul>
+          <li><a href="#">AGENDA PERSONAL DE ANDRES FELIPE</a></li>
+          <li><a href="#">ANALISTA Y DESARROLLADOR DE SOFTWARE</a></li>
+          <li><a href="#">PROGRAMADOR- ESTUDIOS EN MARCHA</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+      <div class="wrapper">
+        <div class="contenedor tamano-1"></div> 
+      </div>
+
+      <div class="wrapper">
+        <div class="contenedor tamano-2"></div>
+      </div>
+
+      <h2>Hoy</h2>
+      <ul id="eventos">
+      </ul>
+      <form id="agregar-evento">
+        <h3>Agregar Evento</h3>
+                        <label for="titulo">Título:</label>
+             <input type="text" id="titulo" name="titulo" required>
+        <label for="fecha">Fecha:</label>
+             <input type="date" id="fecha" name="fecha" required>
+           <label for="hora-inicio">Hora de inicio:</label>
+        <input type="time" id="hora-inicio" name="hora-inicio" required>
+        <label for="hora-fin">Hora de fin:</label>
+        <input type="time" id="hora-fin" name="hora-fin" required>
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" name="descripcion"></textarea>
+        <input type="submit" value="Agregar">
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+
+</html>
